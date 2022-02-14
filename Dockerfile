@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.9.5
 
 # Force unbuffered stdout and stderr (i.e. they are flushed to terminal immediately)
 ENV PYTHONUNBUFFERED 1
